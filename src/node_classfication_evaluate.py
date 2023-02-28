@@ -3,7 +3,7 @@ import scipy.io as sio
 import pickle as pkl
 import torch.nn as nn
 from sklearn.metrics import f1_score
-from Decoupling_matrix_aggregation import coototensor
+from src.Decoupling_matrix_aggregation import coototensor
 import time
 
 import heapq
