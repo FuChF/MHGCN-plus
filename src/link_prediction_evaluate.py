@@ -2,7 +2,7 @@ import numpy as np
 import torch
 from sklearn.metrics import precision_recall_curve, roc_auc_score, f1_score, auc
 import torch.nn.functional as F
-from Decoupling_matrix_aggregation import coototensor
+from src.Decoupling_matrix_aggregation import coototensor
 from src.args import get_citation_args
 import src.logreg
 
